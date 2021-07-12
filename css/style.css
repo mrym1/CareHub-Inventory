@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+ 
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-size: cover;
+
+} 
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#383838);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,#050505);
+
+}
+
+.login{
+    border: 1px solid rgb(80, 78, 78);
+    box-shadow: 5px 5px 50px rgb(235, 248, 53);
+    border-radius: 33px;
+    color: rgb(8, 8, 8);
+}
+
+.head-logo{
+    top: auto;
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(252, 83, 4);
+}
+
+.head-logo:hover{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+
+.icon{
+    width: 150px;
+    height: 130px;
+    padding-bottom: 2px;
+    font-size: 140px;
+    color: black;
+}
+.head-logo span{
+    color: rgb(255, 6, 6);
+}
+.data{
+    width: 100%;
+    text-align: center;
+    margin: 30px auto 20px;
+}
+.main-heading{
+    font-weight: 500;
+    font-size: 20px;
+}
+.login-form{
+    padding: 0 25px 0 35px;
+
+}
+.form-control{
+    border: 1px solid #03adfc;
+    border-radius: 2px;
+    background: #f9f9fa;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.form-control:focus{
+    border: 2px solid #03adfc;
+    border-radius: 5px;
+    background: #fbfbfc;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    box-shadow: none;
+    color: rgb(8, 8, 8);  
+}
+.form-check-input{
+    width: 1rem !important;
+    height: 1rem !important;
+}
+.form-group{
+    text-align: left;
+
+}
+.btn-primary{
+    background: linear-gradient(135deg, rgb(4, 193, 250) 39%, rgb(70, 111, 128) 100%);
+    border: none;
+    border-radius: 50px;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+.btn:hover{
+    border: 2px solid rgb(252, 251, 252);
+}
+.register-btn{
+    border-radius: 40%;
+    margin: 4px;
+}
+
+
+.s_image{
+    height: 40px;
+    width: 40px;
+    border-radius: 2px;
+}
+

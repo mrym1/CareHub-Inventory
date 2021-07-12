@@ -1,0 +1,1 @@
+<link rel="icon" type="image/jpeg" href="/Inventory/images/logo1.png" class="size">

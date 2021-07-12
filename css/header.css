@@ -1,0 +1,50 @@
+body{
+    background: #ccc;
+}
+.header-card{
+    color: #fff;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#fc6f1d);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,#000000);
+
+}
+.n-btn:hover{
+    position: relative;
+    color: rgb(8, 8, 8);
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 5px;
+    margin: 5px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    background: linear-gradient(90deg,#ff7402,#ffd102);
+}
+
+@media only screen and (max-width: 500px) {
+    navbar {
+      background-color: lightblue;
+    }
+  }
+
+.header-card img{
+    height: 80vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    background-size: cover;
+}
+.carousel-caption{
+    top: 280px;
+}
+.h1 span{
+    text-shadow: 2px crimson;
+    color: #fff;
+}

@@ -1,0 +1,77 @@
+section.our-team {
+    padding: 30px 0px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+.our-team .member {
+    text-align: center;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s;
+    border: 2px solid #ffffff;
+}
+.our-team .member:hover{
+    border-color: rgb(253, 161, 57);
+}
+.our-team h4{
+    font-size: 36px;
+    color: rgb(252, 249, 249);
+    font-weight: normal;
+}
+
+span{
+    font-size: 26px;
+    color: rgb(252, 249, 249);
+    font-weight: normal;
+
+}
+
+.our-team .member .member-info {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+.our-team .member .member-detail {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+.our-team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: -38px;
+    right: 0;
+    height: 48px;
+    transition: bottom ease-in-out 0.4s;
+    text-align: center;
+}
+.our-team .member .social a {
+    margin: 0 10px;
+    display: inline-block;
+    color: #fff;
+}
+.our-team .member .social a:hover {
+    color: #fd8904;
+    
+}
+.our-team .member .social i {
+    font-size: 24px;
+    margin: 0 2px;
+}
+.our-team .member:hover .member-info {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.57) 20%, rgba(121, 85, 72, 0.09) 100%);
+    opacity: 1;
+    transition: 0.4s;
+}
+.our-team .member:hover .member-detail {
+    bottom: 80px;
+}
+.our-team .member:hover .social {
+    bottom: 10px;
+}
